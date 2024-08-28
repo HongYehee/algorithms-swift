@@ -53,7 +53,7 @@ if let T = Int(readLine()!) {
                 }
             }
             
-            // 배추밭[0][0]부터 배추밭[M-1][N-1]까지 돌면서 : 배추인 경우 ⇒ 지렁이 한 마리 추가 후 bfs 실행
+            // 배추인 경우 ⇒ 지렁이 한 마리 추가 후 bfs 실행
             var worms = 0
             for x in 0..<M {
                 for y in 0..<N {
